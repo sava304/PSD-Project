@@ -387,6 +387,7 @@ footer {
     justify-content: center;
     gap:0px;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 
 footer .links {
@@ -474,6 +475,7 @@ footer .links {
     justify-content: center;
     height: 80px;
     align-items:center;
+    width: 100%;
 }
 
 
