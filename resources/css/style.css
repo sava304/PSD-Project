@@ -325,7 +325,68 @@ nav {
     width: 50%;
     height: 100%;
     background-color: #53354a;
+    display: flex;
+
 }
+
+.section-testimonials .container-t {
+    display: flex; 
+    margin: 100px 400px 225px 85px;
+    flex-direction: column;
+    width: 500px;
+}
+
+.section-testimonials .t-text {
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Cardo";
+    width: 27.5ch;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.section-testimonials .circ {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.section-testimonials .circles-2 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    margin: 8px;
+}
+
+.section-testimonials .circles {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff; 
+    opacity: 0.200;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-testimonials .ttext-about {
+    font-size: 13px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    width: 300px;
+    padding-bottom: 65px;
+}
+
+
 
 
 /*---------------Section-download-------------*/
