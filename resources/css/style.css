@@ -283,6 +283,14 @@ nav {
     
 }
 
+.ourteam-links a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*----------Section-works----------*/
 .section-testimonials {
     position: relative;
@@ -512,6 +520,14 @@ footer .links {
 .share .links {
     display: flex;
     justify-content: center;
+}
+
+.footer-links a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .location {
